@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 3.75rem;
+}
+
+header {
+  background: rgba(107, 98, 59, 0.836) url(../img/main-img.jpg) no-repeat center
+    top / cover;
+  padding-top: 2rem;
+  background-blend-mode: soft-light;
+}
+
+.logo span {
+  color: #5eac49;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.first-page {
+  color: whitesmoke;
+  display: flex;
+  padding-top: 12.5rem;
+  text-align: center;
+  padding-bottom: 15.625rem;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  font-size: 5rem;
+  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1),
+    0 18px 23px rgba(0, 0, 0, 0.4);
+}
+
+.btn-read-more {
+  padding-top: 3.75rem;
+}
+
+.btn {
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 1.063rem 3rem;
+  width: 13rem;
+  border-radius: 3rem;
+  background-color: #5eac49;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 10px 1px #2d551cad;
+}
+
+.our-advantages,
+.our-projects,
+.experts-say {
+  padding-top: 2.5rem;
+  padding-bottom: 5.625rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.info h1 {
+  padding-bottom: 1.25rem;
+  font-size: 2.125rem;
+}
+
+.info p {
+  padding-bottom: 2.5rem;
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.comfort,
+.reliability,
+.design {
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-blend-mode: soft-light;
+  color: #fff;
+  font-size: 1.625rem;
+}
+
+.comfort {
+  background: rgb(77, 71, 42) url(../img/comfort.jpg) no-repeat center top /
+    cover;
+}
+
+.reliability {
+  background: rgb(77, 71, 42) url(../img/realibility.jpg) no-repeat center top /
+    cover;
+}
+
+.design {
+  background: rgb(77, 71, 42) url(../img/design.jpg) no-repeat center top /
+    cover;
+}
+
+.our-projects {
+  background-color: rgba(179, 138, 27, 0.096);
+}
+
+.btn-view-more {
+  margin-top: 1.875rem;
+  align-self: center;
+}
+
+.gallery img {
+  width: 16.875rem;
+  height: 13.125rem;
+}
+
+.human img {
+  border-radius: 50%;
+  width: 6.25rem;
+  height: 6.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.human {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer {
+  background: rgb(78, 72, 43) url(../img/footer.jpg) no-repeat center top /
+    cover;
+  background-blend-mode: soft-light;
+  color: white;
+  padding-top: 2.5rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3.125rem;
+}
+
+.social-media img {
+  transition: all 0.5s ease;
+  margin: 0 1.25rem;
+}
+
+.social-media img:hover {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
