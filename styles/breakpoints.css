@@ -1,4 +1,4 @@
-@media screen and (max-width:375px) {
+@media screen and (min-width:320px) and (max-width:480px){
   .container {
     max-width: 300px;
   }
@@ -35,25 +35,80 @@
 }
 }
 
-@media screen and  (min-width: 768px) {
+@media screen and  (min-width: 481px) and (max-width:768px){
   .container {
-    max-width: 670px;
+    max-width: 450px;
   }
 
   .gallery img{
     padding-bottom: 1rem;
   }
+
+  .nav{
+    display: none;
+  }
+  .text{
+    font-size: 3.25rem;
+  }
+  .btn{
+    font-size: 0.8rem;
+    width: 12rem;
+  }
+  .info h1 {
+    font-size: 1.75rem;
+  }
+  .info p {
+    font-size: 1rem;
+  }
+  .comfort,
+.reliability,
+.design{
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+.gallery img{
+  padding-bottom: 1rem;
+}
+.our-advantages,
+.our-projects,
+.experts-say {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
   
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width:769px) and (max-width: 1024px) {
   .container {
-    max-width: 870px;
+    max-width: 740px;
   }
+  .text{
+    font-size: 3.85rem;
+  }
+  .info h1 {
+    font-size: 1.95rem;
+  }
+  .info p {
+    font-size: 1rem;
+  }
+  .comfort,
+.reliability,
+.design{
+  font-size: 1.4rem;
+}
+.gallery img{
+  padding-bottom: 1rem;
+}
+.our-advantages,
+.our-projects,
+.experts-say {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width:1025px) and (max-width:1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 1000px;
   }
 }
