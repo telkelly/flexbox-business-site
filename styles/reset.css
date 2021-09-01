@@ -87,3 +87,11 @@ input {
   font: inherit;
   vertical-align: baseline;
 }
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

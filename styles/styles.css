@@ -27,12 +27,21 @@ a {
 .nav-bar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.nav ul li {
-  display: inline;
-  list-style-type: none;
-  margin-left: 3.75rem;
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item{
+  padding-left: 5rem;
+}
+
+.nav-link:hover{
+  color: #5eac49;
 }
 
 header {
@@ -42,8 +51,22 @@ header {
   background-blend-mode: soft-light;
 }
 
-.logo span {
+.nav-logo span {
   color: #5eac49;
+}
+
+.hamburger{
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
 }
 
 .container {
