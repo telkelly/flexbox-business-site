@@ -1,4 +1,12 @@
 @media screen and (min-width:320px) and (max-width:480px){
+  .slider-wrapper{
+    height: 450px;
+  }
+
+  .slide{
+    margin: 0 2.5rem;
+  }
+
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -75,6 +83,11 @@
 }
 
 @media screen and  (min-width: 481px) and (max-width:768px){
+
+  .slide{
+    margin: 0 4.10rem;
+  }
+
   .nav-menu {
     position: fixed;
     left: -100%;

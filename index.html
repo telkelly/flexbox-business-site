@@ -22,10 +22,10 @@
           <h1><span>G</span>u<span>m</span>z<span>a</span></h1>
         </div>
           <ul class="nav-menu">
-            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
         <div class="hamburger">
           <span class="bar"></span>
@@ -38,12 +38,12 @@
           <h1>We build <br> the new world!</h1>
         </div>
         <div class="btn-read-more">
-          <a href="#" class="btn">Read more</a>
+          <a href="#about" class="btn">Read more</a>
         </div>
       </div>
     </div>
   </header>
-  <section class="our-advantages">
+  <section id="about" class="our-advantages">
     <div class="container">
       <div class="info">
         <h1>Our advantages</h1> 
@@ -62,7 +62,7 @@
       </div>
     </div>
   </section>
-  <section class="our-projects">
+  <section id="projects" class="our-projects">
     <div class="container">
       <div class="info">
         <h1>Recent projects</h1> 
@@ -78,19 +78,46 @@
       </div>
     </div>
   </section>
-  <section class="experts-say">
+  <section id="blog" class="experts-say">
     <div class="container">
       <div class="info">
         <h1>Experts say</h1> 
-        <p>Sapien tempus non mauris dictum. Dictumst. Ut. Est. Id accumsan ut.Id labore laborum quis incididunt laborum nostrud aliqua enim nisi in proident sit Lorem anim. Reprehenderit dolor culpa id mollit non id commodo enim. Sint duis consectetur dolore ipsum aute veniam anim pariatur. Exercitation minim nostrud ea incididunt consequat aliquip culpa id voluptate.</p>
-        <div class="human">
-          <img src="./img/expert.jpg" alt="photo-expert">
-          <span>Kia Rio</span>
+        <div class="flex-wrapper">
+          <div class="slider-wrapper">
+            <div class="slide active">
+              <div class="slide-wrapper">
+                <p>Sapien tempus non mauris dictum. Dictumst. Ut. Est. Id accumsan ut.Id labore laborum quis incididunt laborum nostrud aliqua enim nisi in proident sit Lorem anim. Reprehenderit dolor culpa id mollit non id commodo enim. Sint duis consectetur dolore ipsum aute veniam anim pariatur. Exercitation minim nostrud ea incididunt consequat aliquip culpa id voluptate.</p>
+                <img src="./img/expert-1.jpg" alt="photo-expert">
+                <span>Stella Sun</span>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide-wrapper">
+                <p>Sapien tempus non mauris dictum. Dictumst. Ut. Est. Id accumsan ut.Id labore laborum quis incididunt laborum nostrud aliqua enim nisi in proident sit Lorem anim. Reprehenderit dolor culpa id mollit non id commodo enim. Sint duis consectetur dolore ipsum aute veniam anim pariatur.</p>
+                <img src="./img/expert-2.jpg" alt="photo-expert">
+                <span>Flora Flowers</span>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide-wrapper">
+                <p>Sapien tempus non mauris dictum. Dictumst. Ut. Est. Id accumsan ut.Id labore laborum quis incididunt laborum nostrud aliqua enim nisi in proident sit Lorem anim. Reprehenderit dolor culpa id mollit non id commodo enim. Sint duis consectetur dolore ipsum aute veniam anim pariatur. Exercitation minim nostrud ea incididunt consequat aliquip culpa.</p>
+                <img src="./img/expert-3.jpg" alt="photo-expert">
+                <span>Bloom Fire</span>
+              </div>
+            </div>
+            <div id="btn-prev"><img src="./img/left-arrow.png" alt=""></div>
+            <div id="btn-next"><img src="./img/right-arrow.png" alt=""></div>
+          </div>
+        </div>
+        <div class="dots-wrapper">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
         </div>
       </div>
     </div>
   </section>
-  <footer>
+  <footer id="contact">
     <div class="container">
       <div class="info">
         <h1>Get in touch</h1> 
