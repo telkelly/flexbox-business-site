@@ -1,3 +1,5 @@
+// menu-hamburger
+
 const hamburger = document.querySelector(".hamburger")
 const navMenu = document.querySelector(".nav-menu")
 
@@ -7,6 +9,13 @@ function mobileMenu(){
     hamburger.classList.toggle("active")
     navMenu.classList.toggle("active")
 }
+
+window.addEventListener('scroll', function() {
+    hamburger.classList.remove("active")
+    navMenu.classList.remove("active")
+  });
+
+// slider
 
 const prevBtn = document.getElementById('btn-prev'),
         nextBtn = document.getElementById('btn-next'),

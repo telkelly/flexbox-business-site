@@ -52,6 +52,11 @@
   .container {
     max-width: 300px;
   }
+
+  .first-page{
+    padding: 10rem 0;
+  }
+
   .text{
     font-size: 2.5rem;
   }
