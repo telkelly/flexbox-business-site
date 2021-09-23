@@ -18,7 +18,7 @@ li {
   text-align: center;
 }
 
-a {
+a, .nav-logo {
   text-decoration: none;
   color: aliceblue;
   text-transform: uppercase;
@@ -32,10 +32,14 @@ header {
   background-blend-mode: soft-light;
 }
 
-.nav-bar, .nav-menu {
+.nav-bar, .nav-menu, .nav-logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav-bar{
+  padding-top: 1rem;
 }
 
 .nav-item{
@@ -47,10 +51,12 @@ header {
 }
 
 .nav-logo{
-  width: 8.75rem;
-  height: 5.625rem;
-  background: url(/img/logo.png) no-repeat center
-  top / cover;
+  width: 6rem;
+  height: 4rem;
+  border-radius: 90%;
+  border: 4px double rgb(46, 43, 28);
+  justify-content: center;
+  background-color: rgba(77, 71, 42, 0.568);
 }
 
 /* hamburger-menu */
@@ -108,6 +114,11 @@ header {
   background-color: #5eac49;
   transition: all 0.5s ease;
   box-shadow: 0 0 10px 1px #2d551cad;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #5eac49d3;
 }
 
 .our-advantages,
@@ -140,6 +151,12 @@ header {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.gallery-more{
+  margin-top: 4rem;
+  display: none;
+  transition: ease-in-out;
 }
 
 .comfort,

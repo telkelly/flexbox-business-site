@@ -2,6 +2,8 @@
 
 const hamburger = document.querySelector(".hamburger")
 const navMenu = document.querySelector(".nav-menu")
+const btnViewMore = document.getElementById('btn-view-more')
+const gallery = document.querySelector('.gallery-more')
 
 hamburger.addEventListener("click", mobileMenu)
 
@@ -71,7 +73,21 @@ dots.forEach((item, indexDot)=>{
     })
 })
 
-// setInterval(nextSlide, 2500)
+setInterval(nextSlide, 2500)
 
 nextBtn.addEventListener('click', nextSlide)
 prevBtn.addEventListener('click', prevSlide)
+
+// button View More
+
+const btnViewFuncOpen = () => {
+    if(gallery.style.display === "none"){
+        gallery.style.display = "flex";
+    }else{
+        gallery.style.display = "none";
+    }
+        
+}
+
+
+btnViewMore.addEventListener('click', btnViewFuncOpen);
